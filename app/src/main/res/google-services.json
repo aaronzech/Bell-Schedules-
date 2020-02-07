@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "648797452587",
+    "firebase_url": "https://bell-schedules.firebaseio.com",
+    "project_id": "bell-schedules",
+    "storage_bucket": "bell-schedules.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648797452587:android:bbaf49b38caaefa9",
+        "android_client_info": {
+          "package_name": "com.osseo.zechaaron.schoolschedules"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648797452587-fg1203hqdip79060cgcrb7jgs8652ibs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArs4hdaTRgJizUFMSxtsywKIHwTZS6saU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

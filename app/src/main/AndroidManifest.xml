@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="schoolschedules_2019">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name="schoolschedules_2019.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="schoolschedules_2019.High.MGSH" />
+        <activity android:name="schoolschedules_2019.Middle.bms" />
+        <activity android:name="schoolschedules_2019.High.pcsh" />
+        <activity android:name="schoolschedules_2019.Middle.oms.omsSelect" />
+        <activity android:name="schoolschedules_2019.High.osh" />
+        <activity android:name="schoolschedules_2019.Middle.NVMS" />
+        <activity android:name="schoolschedules_2019.Middle.oms.omsTeam1" />
+        <activity android:name="schoolschedules_2019.Middle.oms.omsTeam2" />
+        <activity android:name="schoolschedules_2019.Middle.oms.omsTeam3" />
+        <activity android:name="schoolschedules_2019.Middle.oms.omsTeam4" />
+        <activity android:name="schoolschedules_2019.Middle.oms.omsTeam5" />
+        <activity android:name="schoolschedules_2019.Middle.oms.omsTeam6" />
+        <activity android:name="schoolschedules_2019.Middle.mgms.mgmsSelect" />
+        <activity android:name="schoolschedules_2019.Middle.mgms.mgms_6A6B" />
+        <activity
+            android:name="schoolschedules_2019.Middle.mgms.mgms_6C6D"
+            android:label="@string/title_activity_mgms_schedule2"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name="schoolschedules_2019.Middle.mgms.mgms_7A7B" />
+        <activity android:name="schoolschedules_2019.Settings"></activity>
+        <activity android:name=".Middle.mgms.mgms_7C7D" />
+        <activity android:name=".Middle.mgms.mgms_8A8B" />
+        <activity android:name=".Middle.mgms.mgms_8C8D" />
+    </application>
+
+</manifest>

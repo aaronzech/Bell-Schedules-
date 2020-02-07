@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "256686008606",
+    "firebase_url": "https://schoolschedules2019.firebaseio.com",
+    "project_id": "schoolschedules2019",
+    "storage_bucket": "schoolschedules2019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256686008606:android:7be35525e00003808ec10f",
+        "android_client_info": {
+          "package_name": "com.osseo.zechaaron.schoolschedules_2019"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256686008606-b7krd10bfv017t8na9hnfaonp60sev5h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBamsr2kN0iK5-_TXJ9SHenGsJpnOCULgk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256686008606-b7krd10bfv017t8na9hnfaonp60sev5h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

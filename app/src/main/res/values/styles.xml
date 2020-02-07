@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="TeamTextSize">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="schedulePrintOut">
+       <item name="android:padding">5dp</item>
+        <item name="android:textColor">#fffdff</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="schedulePrintOutLarge">
+        <item name="android:padding">9dp</item>
+        <item name="android:textColor">#fffdff</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+    <style name="Spinner" parent="Widget.AppCompat.Light.DropDownItem.Spinner">
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:textSize">250sp</item>
+    </style>
+
+
+</resources>

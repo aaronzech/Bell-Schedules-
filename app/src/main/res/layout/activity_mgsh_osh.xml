@@ -1,0 +1,146 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#10436d">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#10436d"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:padding="0dp"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            tools:text="Monday"
+            />
+
+        <TextView
+            android:id="@+id/display_hour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+
+            tools:text="Current Hour"
+
+            />
+
+
+        <TextView
+            android:id="@+id/current_hour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="#fffdff"
+            android:textSize="30sp"
+            tools:text="9:00am" />
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@+id/currentDaySchedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:text="Today's Schedule"
+                android:textColor="#fffdff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/hour1Dislpay"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/currentDaySchedule"
+                android:layout_centerHorizontal="true"
+                style="@style/schedulePrintOut"
+                tools:text="Hour1" />
+            <TextView
+                android:id="@+id/hour2Display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hour1Dislpay"
+                android:layout_centerHorizontal="true"
+                style="@style/schedulePrintOut"
+                tools:text="Hour2"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/hour3Display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hour2Display"
+                android:layout_centerHorizontal="true"
+                style="@style/schedulePrintOut"
+                tools:text="Hour3" />
+            <TextView
+                android:id="@+id/hour4Display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hour3Display"
+                android:layout_centerHorizontal="true"
+                style="@style/schedulePrintOut"
+                tools:text="Hour4"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/hour5Display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hour4Display"
+                android:layout_centerHorizontal="true"
+                style="@style/schedulePrintOut"
+                tools:text="Hour5" />
+
+            <TextView
+                android:id="@+id/hour6Display"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hour5Display"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                style="@style/schedulePrintOut"
+                tools:text="Hour6"
+                android:textStyle="bold"/>
+
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"
+            android:onClick="goHome"
+            android:text="Back" />
+    </LinearLayout>
+</ScrollView>

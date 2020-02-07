@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Settings">
+
+    <PreferenceCategory android:title="Settings"
+        android:textSize="200sp">
+
+    </PreferenceCategory>
+
+
+
+    <ListPreference
+        android:defaultValue="MGSH"
+        android:entries="@array/Schools"
+        android:entryValues="@array/Schools"
+        android:key="@string/key_Schools"
+        android:summary="Choose a default school on app load"
+        android:title="Default School"></ListPreference>
+    <SwitchPreference
+        android:title="Show current class only"
+        android:key="switch1"
+        android:defaultValue="false"
+        android:summary="Only the current active class will be displayed"
+    ></SwitchPreference>
+
+
+
+    android:
+</PreferenceScreen>

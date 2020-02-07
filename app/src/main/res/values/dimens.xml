@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="Banner_height">130dp</dimen>
+    <dimen name="Banner_width">25dp</dimen>
+
+    <!-- High School -->
+    <dimen name="hour_display_paddingAll">8dp</dimen>
+
+    <!-- Middle School -->
+    <dimen name="hour_display_marginAll">4dp</dimen>
+</resources>

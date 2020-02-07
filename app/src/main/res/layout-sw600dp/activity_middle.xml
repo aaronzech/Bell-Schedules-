@@ -1,0 +1,210 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#10436d">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#10436d"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/Banner_height"
+            android:layout_marginTop="@dimen/Banner_width"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/oms" />
+
+        <TextView
+            android:id="@+id/teamName"
+            style="@style/TeamTextSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            tools:text="Team Name"
+            />
+
+        <TextView
+            android:id="@+id/day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            tools:text="Day of Week" />
+
+        <TextView
+            android:id="@+id/display_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+
+            tools:text="Current Hour" />
+
+        <TextView
+            android:id="@+id/current_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="#fffdff"
+            android:textSize="30sp"
+            tools:text="8:00am" />
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="9dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:id="@+id/currentDaySchedule"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="10dp"
+                android:text="Today's Schedule"
+                android:textColor="#fffdff"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/hour1Dislpay"
+                style="@style/schedulePrintOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/currentDaySchedule"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/hour_display_marginAll"
+                android:textSize="18sp"
+                tools:text="Hour1" />
+
+            <TextView
+                android:id="@+id/hour2Display"
+                style="@style/schedulePrintOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hour1Dislpay"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/hour_display_marginAll"
+                android:textSize="18sp"
+                tools:text="Hour2" />
+
+            <TextView
+                android:id="@+id/hour3Display"
+                style="@style/schedulePrintOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hour2Display"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/hour_display_marginAll"
+                android:textSize="18sp"
+                tools:text="Hour3" />
+
+            <TextView
+                android:id="@+id/hour4Display"
+                style="@style/schedulePrintOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hour3Display"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/hour_display_marginAll"
+                android:textSize="18sp"
+                tools:text="Hour4" />
+
+            <TextView
+                android:id="@+id/hour5Display"
+                style="@style/schedulePrintOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hour4Display"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/hour_display_marginAll"
+                android:textSize="18sp"
+                tools:text="Hour5" />
+
+            <TextView
+                android:id="@+id/hour6Display"
+                style="@style/schedulePrintOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hour5Display"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/hour_display_marginAll"
+                android:textSize="18sp"
+                tools:text="Hour6" />
+
+            <TextView
+                android:id="@+id/hour7Display"
+                style="@style/schedulePrintOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hour6Display"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/hour_display_marginAll"
+                android:textSize="18sp"
+                tools:text="Hour7" />
+
+            <TextView
+                android:id="@+id/hour8Display"
+                style="@style/schedulePrintOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hour7Display"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/hour_display_marginAll"
+                tools:text="Hour8"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/hour9Display"
+                style="@style/schedulePrintOut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hour8Display"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/hour_display_marginAll"
+                tools:text="Hour9"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/currentDayScheduleFull"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/currentDaySchedule"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:textColor="#fffdff"
+                android:textSize="16sp" />
+
+
+            <Button
+                android:id="@+id/backButton"
+                android:layout_width="wrap_content"
+                android:layout_height="58dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="0dp"
+                android:layout_marginTop="410dp"
+                android:onClick="goHome"
+                android:text="Back" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
