@@ -6,4 +6,5 @@ Android App - Bell Schedules
 **Directions:**
 1) Install apk file
 
+**Overview of the App**
 ![](https://github.com/aaronzech/Bell-Schedules-/blob/master/AppGifv.5.gif)
